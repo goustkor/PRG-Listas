@@ -1,5 +1,5 @@
 //5 - Ler 2 valores e escrevê-los em ordem crescente. 
-package br.edu.ifcvideira.Lista2;
+package br.edu.ifcvidera.Lista2;
 
 import java.util.Scanner;
 
@@ -17,11 +17,11 @@ public class Exercicio05 {
 		System.out.println("Digite o valor 2: ");
 		v2 = Double.parseDouble(in.nextLine());
 		
-		if(v1 > v2)
+		if(v1 > v2) {
 			System.out.println(v1 + "\n" + v2);
-		else
+		}else {
 			System.out.println(v2 + "\n" + v1);
-			
+		}
 		
 		in.close();
 

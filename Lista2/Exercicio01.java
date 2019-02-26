@@ -1,5 +1,5 @@
 // 1 – Ler um valor e escrever se é positivo, negativo ou zero.
-package br.edu.ifcvideira.Lista2;
+package br.edu.ifcvidera.Lista2;
 
 import java.util.Scanner;
 
@@ -13,12 +13,13 @@ public class Exercicio01 {
 		System.out.println("Digite um valor:");
 		valor = Double.parseDouble(in.nextLine());
 		
-		if(valor == 0)
+		if(valor == 0) {
 			System.out.println("Zero");
-		else if (valor > 0)
+		}else if (valor > 0) {
 			System.out.println("Positivo");
-		else if (valor < 0)
+		}else if (valor < 0) {
 			System.out.println("Negativo");
+		}
 		
 		in.close();
 

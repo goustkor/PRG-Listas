@@ -2,7 +2,7 @@
 mensagem que diga se ela poderá ou não votar este ano (não é necessário 
 considerar o mês em que a pessoa nasceu). */
 
-package br.edu.ifcvideira.Lista2;
+package br.edu.ifcvidera.Lista2;
 
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -19,10 +19,11 @@ public class Exercicio03 {
 		System.out.println("Digite o ano de nascimento: ");
 		nascimento = Double.parseDouble(in.nextLine());
 		
-		if((date.getYear() - nascimento) >= 18)
+		if((date.getYear() - nascimento) >= 18) {
 			System.out.println("Pode votar");
-		else 
+		}else {
 			System.out.println("Não pode votar");
+		}
 		
 		in.close();
 	}

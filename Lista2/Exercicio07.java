@@ -1,5 +1,5 @@
 //7 - Ler 3 valores e escrever a soma dos 2 maiores (Considerando valores distintos). 
-package br.edu.ifcvideira.Lista2;
+package br.edu.ifcvidera.Lista2;
 
 import java.util.Scanner;
 

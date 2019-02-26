@@ -1,6 +1,6 @@
 /*11. Faça um programa que receba um valor qualquer, ao usuário digitar 1 converta para m²
 , ao usuário digitar 2, converta para m³ */ 
-package br.edu.ifcvideira.Lista2;
+package br.edu.ifcvidera.Lista2;
 
 import java.util.Scanner;
 
@@ -19,11 +19,12 @@ public class Exercicio11 {
 		System.out.println("Digite 1 para m² \nDigite 2 para m³");
 		type = Double.parseDouble(in.nextLine());
 		
-		if(type == 1)
+		if(type == 1) {
 			System.out.println(Math.pow(v1, 2) + "m²");
-		else if(type == 2)
+		}else if(type == 2) {
 			System.out.println(Math.pow(v1, 3) + "m³");
-
+		}
+		
 		in.close();
 	}
 
