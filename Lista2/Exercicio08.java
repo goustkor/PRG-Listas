@@ -1,4 +1,4 @@
-// 8 - Ler 3 valores e escrevê-los em ordem crescente (Considerando valores distintos). 
+// 8 - Ler 3 valores e escrevÄ™-los em ordem crescente (Considerando valores distintos). 
 package br.edu.ifcvidera.Lista2;
 
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Exercicio08 {
 
 	public static void main(String[] args) {
-Scanner in = new Scanner(System.in);
+		Scanner in = new Scanner(System.in);
 		
 		double v1;
 		double v2;
